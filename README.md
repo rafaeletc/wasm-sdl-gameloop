@@ -24,6 +24,8 @@ Run `make run-wasm` or manually:<br/>
 
 6. You can run on terminal too, with compiler and SDL2 dependencies on place, just hit `make build; make run`
 
+![Captura de tela de 2024-04-03 16-58-20](https://github.com/rafaeletc/wasm-sdl-gameloop/assets/214228/5291c37b-c17a-4ef2-9029-7d0a4ec80874)
+
 ## Todos:
 
 - [ ] Improve Makefile
@@ -32,6 +34,4 @@ Run `make run-wasm` or manually:<br/>
 - [ ] Add a game start scene
 - [ ] Add a game over scene
 
----
-
-[^1] Game design taken from [Pikuma's Creating a Game Loop with C & SDL (Tutorial)](https://www.youtube.com/watch?v=XfZ6WrV5Z7Y)
+[^1]: Game design taken from [Pikuma's Creating a Game Loop with C & SDL (Tutorial)](https://www.youtube.com/watch?v=XfZ6WrV5Z7Y)
