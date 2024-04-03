@@ -1,6 +1,6 @@
 # wasm-sdl-gameloop [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-A Simple Game Loop Written in C & SDL[^1] with browser execution with WebAssembly, binding it to an HTML5 canvas using Emscripten.
+A Simple Game Loop Written in C & SDL[^1] running in the browser thanks to WebAssembly binding it to an HTML5 canvas.
 
 Live demo: https://rafaeletc.github.io/wasm-sdl-gameloop
 
