@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>wasm-sdl-gameloop</title>
+        <meta name="description" content="A simple game loop using SDL2 and WebAssembly." />
+        <meta name="author" content="Rafael de Lima Franco" />
+        <meta name="keywords" content="WebAssembly, SDL2, Game Loop" />
+        <meta name="robots" content="index, follow" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <canvas id="canvas" oncontextmenu="event.preventDefault()"></canvas>
+        <script type="text/javascript">
+            var Module = {
+                canvas: (function () {
+                    return document.getElementById("canvas");
+                })(),
+            };
+        </script>
+        <script src="index.js"></script>
+        <p>🕹️ Use the keys ⬅️ and ➡️ to move the paddle, key <strong>R</strong> to start again.</p>
+    </body>
+</html>
