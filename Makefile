@@ -11,10 +11,10 @@ build-wasm:
 	emcc src/*.c \
 	-s WASM=1 \
 	-s USE_SDL=2 \
-	-o public/index.js
+	-o docs/index.js
 
 clean-wasm:
-	rm -vf public/index.{js,wasm}
+	rm -vf docs/index.{js,wasm}
 
 run-wasm:
-	emrun public/index.html
+	emrun docs/index.html
